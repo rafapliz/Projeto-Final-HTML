@@ -2,11 +2,7 @@
 
 /* CSS Variables */
 :root {
-    --primary-color: #b90415;
-    --primary-color-hover: #d3071b;
-    --secondary-color: #103063;
-    --secondary-color-hover: #143f85;
-    --light-color: #f4f4f4;
+  --light-color: #f4f4f4;
 }
 
 body {
@@ -61,24 +57,21 @@ a {
 }
 
   /* Footer */
-footer .footer-cols {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 2rem;
+  footer .footer-cols {
+    display: flex;
     text-align: left;
     font-size: 14px;
+    width: 100%;
   }
 
   footer .footer-cols ul {
     list-style: none;
- 
   }
 
   footer .footer-cols ul li:first-child {
     font-size: 1.2rem;
     padding-bottom: 0.5rem;
     border-bottom: #444 solid 1px;
-    margin-bottom: 1rem;
   }
 
   footer .footer-bottom {
@@ -233,6 +226,20 @@ footer .footer-cols {
 width: 40vw;
 border-radius: 20px;
 }
+
+footer .container {
+display: flex;
+align-items: center;
+}
+
+.cooperforte {
+ height: 80px;
+ margin-right: 30px;
+ }
+ .cpdi {
+width: 120px;
+height: 80px;
+ }
 
 .footer-cols a {
   color: var(--light-color);
