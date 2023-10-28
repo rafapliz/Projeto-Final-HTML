@@ -157,15 +157,6 @@ a {
     background: var(--light-color);
     color: #333;
   }
-
-.mb {
-    margin-bottom: 1rem;
-  }
-
-  .mt {
-    margin-top: 1rem;
-  }
-
   /* Navigation */
   nav {
     height: 60px;
